@@ -4,8 +4,12 @@ Termux Linux Setup
 This is a copy of https://github.com/orailnoor/termux-linux-setup
 Removed flask server
 
+### To install my version
+```bash
+curl -O https://raw.githubusercontent.com/mitchdevyt/TermuxLinuxSetup/main/termux-linux-setup.sh && chmod +x termux-linux-setup.sh && ./termux-linux-setup.sh
 ```
-# termux-linux-setup
+
+## Copy of install instructions
 
 A unified script to easily set up native Linux desktop environments (XFCE4, LXQt, MATE, KDE) on Android via Termux. Includes GPU acceleration (Turnip/Zink), audio, Windows app support (Box64/Wine), and a comprehensive set of default tools.
 
@@ -25,8 +29,4 @@ Once you have both applications installed on your phone, open the primary **Term
 
 ```bash
 curl -O https://raw.githubusercontent.com/orailnoor/termux-linux-setup/main/termux-linux-setup.sh && chmod +x termux-linux-setup.sh && ./termux-linux-setup.sh
-```
-```
-```bash
-curl -O https://raw.githubusercontent.com/mitchdevyt/TermuxLinuxSetup/main/termux-linux-setup.sh && chmod +x termux-linux-setup.sh && ./termux-linux-setup.sh
 ```
